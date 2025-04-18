@@ -6,7 +6,7 @@ import Image from "next/image";
 const CreativeAgencyFooter = () => {
   return (
     <>
-      <footer className="footer__area-2 pt-130">
+      <footer className="footer__area-2 pt-130" id="contact">
         <div className="container">
           <div className="footer__top-2 text-anim">
             <div className="row">
@@ -29,17 +29,8 @@ const CreativeAgencyFooter = () => {
                   <div className="location">
                     <h3>Address</h3>
                     <p>
-                      Bana sidh goria lane <br />
+                      Baba sidh goria lane <br />
                       Dhok Paloura JAMMU
-                    </p>
-                    <h3>Phone</h3>
-                    <p>
-                      +91 9906114426 <br />
-                      +91 7006622837
-                    </p>
-                    <h3>Email</h3>
-                    <p>
-                      khajurianaresh26@gmail.com
                     </p>
                   </div>
                   {/* <div className="location">
@@ -53,21 +44,13 @@ const CreativeAgencyFooter = () => {
               </div>
               <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
                 <div className="footer__subscribe-2">
-                  <form action="#">
-                    <input
-                      type="text"
-                      name="email"
-                      placeholder="Enter your email"
-                    />
-                    <button type="submit" className="submit">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        src={ArrowBlack}
-                        alt="Arrow Icon"
-                      />
-                    </button>
-                  </form>
+                  <h3>Phone</h3>
+                  <p>
+                    +91 9906114426 <br />
+                    +91 7006622837
+                  </p>
+                  <h3>Email</h3>
+                  <p>khajurianaresh26@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -80,7 +63,7 @@ const CreativeAgencyFooter = () => {
                   <p>
                     © 2022 - 2025 | Alrights reserved by{" "}
                     {/* <a href="https://wealcoder.com/" target="_blank"> */}
-                      NNRS
+                    NNRS
                     {/* </a> */}
                   </p>
                 </div>

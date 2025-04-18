@@ -2,7 +2,13 @@
   "nav": [
     {
       "nav_name": "Home",
-      "link": "/",
+      "link": "#home",
+      "type": "",
+      "sub_nav": []
+    },
+    {
+      "nav_name": "Products",
+      "link": "#products",
       "type": "",
       "sub_nav": []
     },
@@ -14,14 +20,14 @@
     },
     {
       "nav_name": "CLIENTS",
-      "link": "/about",
+      "link": "#vision",
       "type": "",
       "sub_nav": []
     },
   
     {
       "nav_name": "Contact",
-      "link": "/contact",
+      "link": "#contact",
       "type": "",
       "sub_nav": []
     }

@@ -37,6 +37,7 @@ import {
   StartupAgencyBlog,
   StartupAgencyCTA,
   StartupAgencyFooter,
+  DigitalAgencyBlog,
 } from "@/components";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
@@ -204,33 +205,20 @@ const CreativeAgency = () => {
         <div className="has-smooth" id="has_smooth"></div>
         <Preloader />
         <CursorAnimation />
-        <Switcher setMode={setMode} />
         <ScrollTop />
         <CreativeAgencyHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <CreativeAgencyHero />
-            <CreativeAgencyAbout />
-            <CreativeAgencyService />
-            <CreativeAgencyAward />
-            {/* <CreativeAgencyPortfolio /> */}
-            {/* <CreativeAgencyTeam /> */}
-            <CreativeAgencyBrand />
-            {/* <CreativeAgencyBlog /> */}
-            {/* <CreativeAgencyFooter /> */}
-            {/* <StartupAgencyHero /> */}
+            <CreativeAgencyHero /> 
+            <DigitalAgencyBlog/>
+              
+            {/* <CreativeAgencyBrand />  */}
+            {/* <CreativeAgencyAward />  */}
+        {/* <CreativeAgencyAbout /> */}
             <StartupAgencyWorkflow />
-            <StartupAgencyFeature />
-            {/* <StartupAgencyService /> */}
-            <StartupAgencyFaq />
-            {/* <StartupAgencyPortfolio /> */}
-            {/* <StartupAgencyBrand /> */}
+            <StartupAgencyFeature /> 
+            <StartupAgencyFaq />  
             <StartupAgencyTestimonial />
-            {/* <StartupAgencySolution /> */}
-            {/* <StartupAgencyBlog /> */}
-            {/* <StartupAgencyCTA /> */}
-            {/* <CreativeAgencyCTA />
-            <StartupAgencyFooter /> */}
             <CreativeAgencyFooter />
           </div>
         </div>

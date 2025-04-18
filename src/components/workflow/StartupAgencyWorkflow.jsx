@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Thumb1 from "../../../public/assets/imgs/thumb/1.png";
-import Thumb2 from "../../../public/assets/imgs/thumb/2.png";
-import Thumb3 from "../../../public/assets/imgs/thumb/3.png";
+import Thumb1 from "../../../public/assets/imgs/icon/4862470.png";
+import Thumb4 from "../../../public/assets/imgs/icon/6492349.png";
+import Thumb5 from "../../../public/assets/imgs/icon/pngtree-business-deadline-line-icon-png-image_3695357-removebg-preview.png";
+import Thumb2 from "../../../public/assets/imgs/icon/track-icon-9.jpg";
+import Thumb3 from "../../../public/assets/imgs/icon/oversee-control-supervise-superintend-check-1024.webp";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -57,7 +59,7 @@ const StartupAgencyWorkflow = () => {
   }, []);
   return (
     <>
-      <section className="workflow__area-4">
+      <section className="workflow__area-4" id='about'>
         <div className="container line_4 pt-100 pb-130">
           <div className="line-col-4">
             <div></div>
@@ -69,11 +71,11 @@ const StartupAgencyWorkflow = () => {
           <div className="row animation_workflow_6">
             <div className="col-xxl-12">
               <div className="title-wrapper-6 text-anim">
-                <h2 className="sec-subtile-6">Processing</h2>
+                <h2 className="sec-subtile-6">Process</h2>
                 <h3 className="sec-title-6 title-anim">Project Management</h3>
                 <p>
-                  Adjust your design through a wide range of theme options in
-                  the <br /> development and instantly.
+                  Seamless execution through structured planning <br /> and
+                  expert oversight.
                 </p>
               </div>
             </div>
@@ -86,10 +88,12 @@ const StartupAgencyWorkflow = () => {
                   src={Thumb1}
                   alt="Work Image"
                 />
-                <h4 className="workflow__title-4">Teamwork</h4>
+                <h4 className="workflow__title-4">
+                  Create detailed schedule & resource plan
+                </h4>
                 <p>
-                  Modern and unique design practically point of view, it risks
-                  not meeting the huge expectations
+                  Develop a comprehensive roadmap with clear timelines and
+                  resource allocation.
                 </p>
               </div>
             </div>
@@ -99,13 +103,15 @@ const StartupAgencyWorkflow = () => {
                   priority
                   width={195}
                   style={{ height: "auto" }}
-                  src={Thumb1}
+                  src={Thumb4}
                   alt="Work Image"
                 />
-                <h4 className="workflow__title-4">Teamwork</h4>
+                <h4 className="workflow__title-4">
+                  Communicate to all team members
+                </h4>
                 <p>
-                  Modern and unique design practically point of view, it risks
-                  not meeting the huge expectations
+                  Ensure transparent and timely communication across all
+                  stakeholders.
                 </p>
               </div>
             </div>
@@ -115,13 +121,15 @@ const StartupAgencyWorkflow = () => {
                   priority
                   width={195}
                   style={{ height: "auto" }}
-                  src={Thumb1}
+                  src={Thumb5}
                   alt="Work Image"
                 />
-                <h4 className="workflow__title-4">Teamwork</h4>
+                <h4 className="workflow__title-4">
+                  Complete and commission the project on time
+                </h4>
                 <p>
-                  Modern and unique design practically point of view, it risks
-                  not meeting the huge expectations
+                  Deliver outcomes efficiently, meeting deadlines and regulatory
+                  standards.
                 </p>
               </div>
             </div>
@@ -134,10 +142,11 @@ const StartupAgencyWorkflow = () => {
                   src={Thumb2}
                   alt="Work Image"
                 />
-                <h4 className="workflow__title-4">Networking</h4>
+                <h4 className="workflow__title-4">
+                  Track project and fine-tune deviations
+                </h4>
                 <p>
-                  Using year-over-year design and latest techs, we will ensure
-                  that your new website will be visible
+                  Monitor progress consistently and adjust plans proactively.
                 </p>
               </div>
             </div>
@@ -150,10 +159,11 @@ const StartupAgencyWorkflow = () => {
                   src={Thumb3}
                   alt="Work Image"
                 />
-                <h4 className="workflow__title-4">Exposure</h4>
+                <h4 className="workflow__title-4">
+                  Supervise closely on quality of work done
+                </h4>
                 <p>
-                  Brand strategy tools are made size for marketing teams taken
-                  possession of global strategy
+                  Maintain high-quality standards through rigorous supervision.
                 </p>
               </div>
             </div>

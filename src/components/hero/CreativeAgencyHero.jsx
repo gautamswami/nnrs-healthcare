@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
-import Home7sh1 from "../../../public/assets/imgs/home-7/sh-1.jpg";
-import Home7sh2 from "../../../public/assets/imgs/home-7/sh-2.jpg";
-import Home7sh3 from "../../../public/assets/imgs/home-7/sh-3.jpg";
-import Home7sh4 from "../../../public/assets/imgs/home-7/sh-4.jpg";
+import Home7sh4 from "../../../public/assets/imgs/home-7/adna.png";
+import Home7sh2 from "../../../public/assets/imgs/home-7/atables.png";
+import Home7sh3 from "../../../public/assets/imgs/home-7/atablet.png";
+import Home7sh1 from "../../../public/assets/imgs/home-7/atabletcard.png";
 import Home7scroll from "../../../public/assets/imgs/home-7/scroll.png";
 import Home7shape6 from "../../../public/assets/imgs/home-7/shape-6.png";
 import Image from "next/image.js";
@@ -78,7 +78,7 @@ const CreativeAgencyHero = () => {
   }, []);
   return (
     <>
-      <section className="service__hero-2">
+      <section className="service__hero-2" id='home'>
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">

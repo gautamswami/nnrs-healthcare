@@ -59,14 +59,11 @@ const StartupAgencyFaq = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-6">
               <div className="faq__sec-title text-anim">
-                <h2 className="sec-subtile-6">Expertise</h2>
-                <h3 className="sec-title-6 title-anim">
-                  Core values.
-                </h3>
-                <p>Grow brands through bold, strategic creative</p>
-                <Link className="btn-view" href="/about">
-                  Know More <i className="fa-solid fa-arrow-right"></i>
-                </Link>
+                <h3 className="sec-title-6 title-anim">Core values.</h3>
+                <p>
+                  Core values of NNRS pharmecuticals are the guiding principles<br/> that
+                  dictate our behavior and action.
+                </p>
               </div>
             </div>
 
@@ -89,9 +86,10 @@ const StartupAgencyFaq = () => {
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        Using year-over-year design approaches and latest techs,
-                        we will ensure that your new website will be{" "}
-                        <span>accessible, and treads lightly</span>.
+                        The safety of our employees and the public is{" "}
+                        {"everyone's"} responsibility. Plan safety into every
+                        aspect of our work and do not deviate from that plan.
+                        <span>Strive for zero incidents.</span>.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -104,12 +102,12 @@ const StartupAgencyFaq = () => {
                       className="accordion-header"
                       id="headingTwo"
                     >
-                     Transparency
+                      Transparency
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
                         {
-                          "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes"
+                          "Our actions must match our words. Each day we must strive to earn our reputation rather than simply manage it. To that end, we must operate in a manner in which our integrity and values cannot be questioned - that is, we must be authentic."
                         }
                       </p>
                     </Accordion.Body>
@@ -127,10 +125,10 @@ const StartupAgencyFaq = () => {
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        Our design services starts and ends with a best-in-class
-                        experience strategy that builds brands. Through a
-                        process of iteration and prototyping design interfaces
-                        that bring joy to people
+                        Our culture of teamwork allows us to work together
+                        within the Company, and with our clients to deliver
+                        better solutions and collectively accomplishing our
+                        goals.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -147,10 +145,8 @@ const StartupAgencyFaq = () => {
                     </Accordion.Header>
                     <Accordion.Body className="accordion-body">
                       <p>
-                        Our design services starts and ends with a best-in-class
-                        experience strategy that builds brands. Through a
-                        process of iteration and prototyping design interfaces
-                        that bring joy to people
+                        Each employee should show initiative and be motivated by
+                        a desire to win, to commit, and to succeed.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

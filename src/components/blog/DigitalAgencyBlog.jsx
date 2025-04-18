@@ -2,9 +2,17 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Blog11 from "../../../public/assets/imgs/blog/1/1.jpg";
-import Blog12 from "../../../public/assets/imgs/blog/1/2.jpg";
-import Blog13 from "../../../public/assets/imgs/blog/1/3.jpg";
+import Tablet1 from "../../../public/assets/imgs/home-7/clinidipine.png";
+import Tablet2 from "../../../public/assets/imgs/home-7/clindipineTab.png";
+import Tablet3 from "../../../public/assets/imgs/home-7/dapagliflozin.png";
+import Tablet4 from "../../../public/assets/imgs/home-7/sabser.png";
+import Tablet5 from "../../../public/assets/imgs/home-7/sunkit.png";
+import Tablet6 from "../../../public/assets/imgs/home-7/minokit.png";
+import Tablet7 from "../../../public/assets/imgs/home-7/kitocrit.png";
+import Tablet8 from "../../../public/assets/imgs/home-7/glitin.png";
+import Tablet9 from "../../../public/assets/imgs/home-7/delikit.png";
+import Tablet10 from "../../../public/assets/imgs/home-7/cabovit.png";
+
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -52,134 +60,99 @@ const DigitalAgencyBlog = () => {
       return () => tHero.revert();
     }
   }, []);
+
+  const products = [
+    {
+      img: Tablet1,
+      title: "Cilanac",
+      salts: "Cilnidipine & Telmisartan Tablets",
+    },
+    {
+      img: Tablet2,
+      title: "Cilanac-10",
+      salts: "Cilnidipine Tablets I.P. 10mg",
+    },
+    {
+      img: Tablet3,
+      title: "Delikit-M",
+      salts:
+        "Dapagliflozin & Metformin Hydrochloride Extended-releast Tablets (10mg+500mg)",
+    },
+    {
+      img: Tablet4,
+      title: "Sabser-F",
+      salts: "Ferrous Ascorbate & Folic Acid Tablets I.P.",
+    },
+    {
+      img: Tablet5,
+      title: "Sunkit 60k",
+      salts: "Cholecalciferol Chewable Tablets 60,000 I.U.",
+    },
+    {
+      img: Tablet6,
+      title: "Minokit-D",
+      salts: "Methylcobalamin with Alpha Lipoic Acid, Thiamine Hydrochloride",
+    },
+    {
+      img: Tablet7,
+      title: "Kitocrit",
+      salts: "Alpha Ketoanalogue Tablets",
+    },
+    {
+      img: Tablet8,
+      title: "Glitin-M 60",
+      salts:
+        "Gliclazide Modified-release & Metformin Hydrochloride Extended-release Tablets",
+    },
+    {
+      img: Tablet9,
+      title: "Delikit-10",
+      salts: "Dapagliflozin Tablets 10mg",
+    },
+    {
+      img: Tablet10,
+      title: "Cabovit-500",
+      salts: "Calcium & Vitamin D3 Tablets I.P.",
+    },
+  ];
+
   return (
     <>
-      <section className="blog__area no-pb blog__animation">
-        <div className="container g-0 line pt-150 pb-140">
+      <section className="blog__area no-pb blog__animation" id='products'>
+        <div className="container g-0 line pb-140">
           <span className="line-3"></span>
           <div className="row">
             <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title">recent blog</h2>
-                <h3 className="sec-title">News insignt</h3>
+                <h3 className="sec-title">OUR PRODUCTS</h3>
               </div>
             </div>
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <article className="blog__item">
-                <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog11}
-                        alt=""
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog11}
-                        alt=""
-                      />
-                    </div>
-                  </Link>
-                </div>
-                <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
-                </h4>
-                <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    Ways of lying to yourself about your new relationship.
-                  </Link>
-                </h5>
-                <Link href="/blog-details" className="blog__btn">
-                  Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
-                </Link>
-              </article>
-            </div>
 
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <article className="blog__item">
-                <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog12}
-                        alt=""
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog12}
-                        alt=""
-                      />
+            {products?.map((data, index) => {
+              return (
+                <div
+                  className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 mb-4 mt-4"
+                  key={`tablet-${index}`}
+                >
+                  <article className="blog__item">
+                    <div className="blog__img-wrapper">
+                      <div className="img-box-custom">
+                        <Image
+                          priority
+                          style={{ width: "auto", height: "auto" }}
+                          className="image-box__item"
+                          src={data.img}
+                          alt=""
+                        /> 
+                      </div>
                     </div>
-                  </Link>
-                </div>
-                <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
-                </h4>
-                <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to manage a talented and successful de sign team
-                  </Link>
-                </h5>
-                <Link href="/blog-details" className="blog__btn">
-                  Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
-                </Link>
-              </article>
-            </div>
 
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <article className="blog__item">
-                <div className="blog__img-wrapper">
-                  <Link href="/blog-details">
-                    <div className="img-box">
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog13}
-                        alt="Blog Thumbnail"
-                      />
-                      <Image
-                        priority
-                        style={{ width: "auto", height: "auto" }}
-                        className="image-box__item"
-                        src={Blog13}
-                        alt="Blog Thumbnail"
-                      />
-                    </div>
-                  </Link>
+                    <h5>{data?.title}</h5>
+                    {data?.salts}
+                  </article>
                 </div>
-                <h4 className="blog__meta">
-                  <Link href="/category">UI Design</Link> . 02 May 2019
-                </h4>
-                <h5>
-                  <Link href="/blog-details" className="blog__title">
-                    How to bring fold to your startup company with Axtra
-                  </Link>
-                </h5>
-                <Link href="/blog-details" className="blog__btn">
-                  Read More{" "}
-                  <span>
-                    <i className="fa-solid fa-arrow-right"></i>
-                  </span>
-                </Link>
-              </article>
-            </div>
+              );
+            })}
           </div>
         </div>
       </section>

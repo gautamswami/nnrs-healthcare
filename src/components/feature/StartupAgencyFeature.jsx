@@ -5,6 +5,7 @@ import Feature41 from "../../../public/assets/imgs/feature/4/1.png";
 import Feature42 from "../../../public/assets/imgs/feature/4/2.png";
 import Feature43 from "../../../public/assets/imgs/feature/4/3.png";
 import Feature from "../../../public/assets/imgs/feature/4/feature.jpg";
+import Pharma from "../../../public/assets/imgs/icon/pharma.jpeg";
 import Icon1 from "../../../public/assets/imgs/feature/4/icon-1.png";
 import Icon2 from "../../../public/assets/imgs/feature/4/icon-2.png";
 import Image from "next/image";
@@ -56,7 +57,7 @@ const StartupAgencyFeature = () => {
   }, []);
   return (
     <>
-      <section className="feature__area-6">
+      <section className="feature__area-6" id='vision'>
         <div className="container line_4">
           <div className="line-col-4">
             <div></div>
@@ -68,9 +69,9 @@ const StartupAgencyFeature = () => {
           <div className="row">
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-6">
               <div className="feature__content-left">
-                <h2 className="sec-subtile-6">Features</h2>
                 <h3 className="sec-title-6 title-anim">
-                  Vision and <br />mission
+                  Vision and <br />
+                  mission
                 </h3>
               </div>
             </div>
@@ -78,14 +79,17 @@ const StartupAgencyFeature = () => {
               <div className="feature__content-right">
                 <h4 className="feature__title-6">Creativity</h4>
                 <p>
-                  We are constantly rethinking the future by creating the next
-                  generation of products,{" "}
-                  <span>brands and design features</span> from a hybrid
-                  perspective.
+                  At NNRS , our vision is to revolutionize the healthcare
+                  industry by becoming the leading provider of innovative and
+                  comprehensive pharmaceutical solutions. We envision a future
+                  where healthcare is accessible, personalized, and
+                  transformative, empowering individuals to{" "}
+                  <span>lead healthier and happier lives. </span>
                 </p>
                 <p>
-                  Regulatory oneven an enterprises such she and the got the did
-                  attributing and pushed.
+                  Our Mission At NNRS Is To Provide Exceptional Pharmaceutical
+                  Care And Contribute To The Well-being Of Individuals And
+                  Communities. 
                 </p>
                 <Image
                   priority
@@ -118,42 +122,13 @@ const StartupAgencyFeature = () => {
                 <Image
                   priority
                   width={630}
-                  style={{height: "auto"}}
-                  src={Feature}
+                  style={{ height: "auto" }}
+                  src={Pharma}
                   alt="Features Image"
                 />
               </div>
             </div>
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-              <div className="feature__content-btm">
-                <div className="feature__content-item fade_bottom_4">
-                  <Image
-                    priority
-                    width={50}
-                    height={50}
-                    src={Icon1}
-                    alt="Features Image"
-                  />
-                  <h5>
-                    Unique Header & <br /> Sidebar
-                  </h5>
-                  <p>Unique digital header widget metaverse wearables</p>
-                </div>
-                <div className="feature__content-item fade_bottom_4">
-                  <Image
-                    priority
-                    width={50}
-                    height={50}
-                    src={Icon2}
-                    alt="Features Image"
-                  />
-                  <h5>
-                    5+ Navigation <br /> Bars
-                  </h5>
-                  <p>Content focused grid designs unique social element</p>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>

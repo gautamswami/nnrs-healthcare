@@ -5,7 +5,7 @@ import Feature41 from "../../../public/assets/imgs/feature/4/1.png";
 import Feature42 from "../../../public/assets/imgs/feature/4/2.png";
 import Feature43 from "../../../public/assets/imgs/feature/4/3.png";
 import Feature from "../../../public/assets/imgs/feature/4/feature.jpg";
-import Pharma from "../../../public/assets/imgs/icon/pharma.jpeg";
+import Pharma from "../../../public/assets/imgs/icon/pexels-edward-jenner-4033148.jpg";
 import Icon1 from "../../../public/assets/imgs/feature/4/icon-1.png";
 import Icon2 from "../../../public/assets/imgs/feature/4/icon-2.png";
 import Image from "next/image";

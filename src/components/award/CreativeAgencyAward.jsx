@@ -92,7 +92,7 @@ const CreativeAgencyAward = () => {
                 </div>
                 <div className="award-video-7">
                   <video loop muted autoPlay playsInline>
-                    <source src="assets/video/video.mp4" type="video/mp4" />
+                    <source src="assets/video/pharmacy.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
@@ -108,9 +108,9 @@ const CreativeAgencyAward = () => {
                   </h2>
                 </div>
               </div>
-              <div className="col-xxl-8 col-xl-3 col-lg-3 col-md-8">
+              <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
                 <div className="award__mid-7 text-anim">
-                  <p style={{maxWidth:"unset"}}>
+                  <span style={{maxWidth:"unset"}}>
                     CLIENT FIRST We Have Vast Experience And Considerable
                     Expertise Dealing With In Modern Technology Based Services.
                     Our Up-to-date Technologies Are The Perfect Example Of
@@ -120,7 +120,7 @@ const CreativeAgencyAward = () => {
                     Ourself And Preserve The Trust Of Clients. Our Experience Is
                     An Asset Which Allow Us To Provide Best Quality Of Service
                     According To Their Needs And Requirements.
-                  </p>
+                  </span>
                 </div>
               </div>
              </div>

@@ -54,9 +54,9 @@ const StartupAgencyFaq = () => {
   }, []);
   return (
     <>
-      <section className="faq__area-4 pt-150 pb-150">
-        <div className="container g-0">
-          <div className="row">
+      <section className="faq__area-4 ">
+        <div className="container g-0 pt-150 pb-150 ps-150 pe-150 faq-bg-section">
+          <div className="row" >
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-6">
               <div className="faq__sec-title text-anim">
                 <h3 className="sec-title-6 title-anim">Core values.</h3>

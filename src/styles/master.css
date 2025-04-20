@@ -24462,13 +24462,16 @@ main {
 }
 
 .faq__area-4 {
-  background-image: url(/assets/imgs/bg/4/s1.png);
+  background-image: url(/assets/imgs/bg/4/s10.jpg);
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   background-color: #1e2024;
+}
+.faq-bg-section{
+  background: #00000061;
 }
 .faq__area-4 .sec-title-6 {
   color: var(--white);
@@ -24486,7 +24489,7 @@ main {
   min-height: 100px;
 }
 .faq__list-4 .accordion-body p {
-  color: var(--gray-2);
+  color: var(--white);
   font-size: 18px;
 }
 @media (max-width: 1023px) {
@@ -24545,7 +24548,7 @@ main {
 }
 .faq__sec-title p {
   font-size: 18px;
-  color: var(--gray-2);
+  color: var(--white);
   padding-bottom: 40px;
 }
 @media only screen and (max-width: 767px) {

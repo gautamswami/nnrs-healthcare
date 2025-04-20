@@ -66,59 +66,78 @@ const DigitalAgencyBlog = () => {
       img: Tablet1,
       title: "Cilanac",
       salts: "Cilnidipine & Telmisartan Tablets",
+      detail:
+        "High blood pressure (hypertension) and help prevent heart-related complications like strokes and heart attacks.",
     },
     {
       img: Tablet2,
       title: "Cilanac-10",
       salts: "Cilnidipine Tablets I.P. 10mg",
+      detail:
+        "Manage high blood pressure by relaxing blood vessels, making it easier for the heart to pump blood.",
     },
     {
       img: Tablet3,
       title: "Delikit-M",
       salts:
-        "Dapagliflozin & Metformin Hydrochloride Extended-releast Tablets (10mg+500mg)",
+        "Dapagliflozin & Metformin Hydrochloride Extended-release Tablets (10mg+500mg)",
+      detail: "Used to control blood sugar levels in type 2 diabetes patients.",
     },
     {
       img: Tablet4,
       title: "Sabser-F",
       salts: "Ferrous Ascorbate & Folic Acid Tablets I.P.",
+      detail:
+        "Helps treat and prevent iron deficiency anemia, especially during pregnancy.",
     },
     {
       img: Tablet5,
       title: "Sunkit 60k",
       salts: "Cholecalciferol Chewable Tablets 60,000 I.U.",
+      detail:
+        "Used to treat or prevent vitamin D3 deficiency and support bone health.",
     },
     {
       img: Tablet6,
       title: "Minokit-D",
       salts: "Methylcobalamin with Alpha Lipoic Acid, Thiamine Hydrochloride",
+      detail:
+        "Supports nerve health and helps in the treatment of diabetic neuropathy.",
     },
     {
       img: Tablet7,
       title: "Kitocrit",
       salts: "Alpha Ketoanalogue Tablets",
+      detail:
+        "Used in chronic kidney disease to delay dialysis and manage protein metabolism.",
     },
     {
       img: Tablet8,
       title: "Glitin-M 60",
       salts:
         "Gliclazide Modified-release & Metformin Hydrochloride Extended-release Tablets",
+      detail:
+        "Helps control blood sugar in type 2 diabetes by improving insulin function.",
     },
     {
       img: Tablet9,
       title: "Delikit-10",
       salts: "Dapagliflozin Tablets 10mg",
+      detail:
+        "Used to lower blood sugar in type 2 diabetes and support heart and kidney health.",
     },
     {
       img: Tablet10,
       title: "Cabovit-500",
       salts: "Calcium & Vitamin D3 Tablets I.P.",
+      detail:
+        "Supports bone strength and helps prevent or treat calcium and vitamin D deficiency.",
     },
   ];
 
   return (
     <>
-      <section className="blog__area no-pb blog__animation" id='products'>
+      <section className="blog__area no-pb blog__animation" id="products">
         <div className="container g-0 line pb-140">
           <span className="line-3"></span>
           <div className="row">
@@ -143,12 +162,14 @@ const DigitalAgencyBlog = () => {
                           className="image-box__item"
                           src={data.img}
                           alt=""
-                        /> 
+                        />
                       </div>
                     </div>
 
                     <h5>{data?.title}</h5>
                     {data?.salts}
+                    <br />
+                    <p style={{ fontWeight: 300 }}>{data?.detail}</p>
                   </article>
                 </div>
               );

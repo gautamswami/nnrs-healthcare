@@ -192,8 +192,11 @@ const CreativeAgency = () => {
   return (
     <div>
       <Head>
-        <title>Creative Agency</title>
-        <meta name="description" content="Creative Agency Description" />
+        <title>NNRS</title>
+        <meta name="description" content="NNRS PHARMACEUTICAL  We Follow High Standards In
+                    Providing Of Manufacturing Products Clients Satisfaction
+                    Is Our Main Concern, We Are Working Hard Every Day To Assert
+                    Ourself And Preserve The Trust Of Clients." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="icon"
@@ -209,15 +212,15 @@ const CreativeAgency = () => {
         <CreativeAgencyHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <CreativeAgencyHero /> 
-            <DigitalAgencyBlog/>
-              
+            <CreativeAgencyHero />
+            <DigitalAgencyBlog />
+
             {/* <CreativeAgencyBrand />  */}
-            <CreativeAgencyAward /> 
-        {/* <CreativeAgencyAbout /> */}
+            <CreativeAgencyAward />
+            {/* <CreativeAgencyAbout /> */}
             <StartupAgencyWorkflow />
-            <StartupAgencyFeature /> 
-            <StartupAgencyFaq />  
+            <StartupAgencyFeature />
+            <StartupAgencyFaq />
             <StartupAgencyTestimonial />
             <CreativeAgencyFooter />
           </div>

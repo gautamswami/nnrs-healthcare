@@ -805,6 +805,15 @@ img {
   display: block;
 }
 
+@media (max-width:767px){
+
+  .logo-dark img{
+    width: 126px;
+    object-fit: contain;
+    height: 60px;
+  }
+}
+
 .font-20 {
   font-size: 20px !important;
 }

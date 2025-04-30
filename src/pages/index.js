@@ -178,7 +178,8 @@ const CreativeAgency = () => {
       <Head>
         
           <title>NNRS Pharmaceutical | Quality Pharmaceutical Manufacturing</title>
-
+          <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        
           <meta name="description" content="NNRS Pharmaceutical is committed to high standards in pharmaceutical manufacturing. Client satisfaction is our top priority." />
           <meta name="keywords" content="pharmaceutical manufacturing, NNRS Pharmaceutical, healthcare products, pharma company, pharma manufacturing, GMP certified, pharmaceutical solutions" />
           <meta name="author" content="NNRS Pharmaceutical" />

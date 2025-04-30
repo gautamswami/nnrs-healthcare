@@ -11,32 +11,16 @@ import {
 } from "@/plugins";
 import {
   CursorAnimation,
-  Switcher,
   ScrollTop,
   Preloader,
   CreativeAgencyHeader,
   CreativeAgencyHero,
-  CreativeAgencyAbout,
-  CreativeAgencyService,
   CreativeAgencyAward,
-  CreativeAgencyPortfolio,
-  CreativeAgencyTeam,
-  CreativeAgencyBrand,
-  CreativeAgencyBlog,
-  CreativeAgencyCTA,
   CreativeAgencyFooter,
-  StartupAgencyHero,
   StartupAgencyWorkflow,
   StartupAgencyFeature,
-  StartupAgencyService,
   StartupAgencyFaq,
-  StartupAgencyPortfolio,
-  StartupAgencyBrand,
   StartupAgencyTestimonial,
-  StartupAgencySolution,
-  StartupAgencyBlog,
-  StartupAgencyCTA,
-  StartupAgencyFooter,
   DigitalAgencyBlog,
 } from "@/components";
 
@@ -192,17 +176,31 @@ const CreativeAgency = () => {
   return (
     <div>
       <Head>
-        <title>NNRS</title>
-        <meta name="description" content="NNRS PHARMACEUTICAL  We Follow High Standards In
-                    Providing Of Manufacturing Products Clients Satisfaction
-                    Is Our Main Concern, We Are Working Hard Every Day To Assert
-                    Ourself And Preserve The Trust Of Clients." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
+        
+          <title>NNRS Pharmaceutical | Quality Pharmaceutical Manufacturing</title>
+
+          <meta name="description" content="NNRS Pharmaceutical is committed to high standards in pharmaceutical manufacturing. Client satisfaction is our top priority." />
+          <meta name="keywords" content="pharmaceutical manufacturing, NNRS Pharmaceutical, healthcare products, pharma company, pharma manufacturing, GMP certified, pharmaceutical solutions" />
+          <meta name="author" content="NNRS Pharmaceutical" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+          <meta property="og:title" content="NNRS Pharmaceutical | Trusted Pharma Manufacturing" />
+          <meta property="og:description" content="Discover NNRS Pharmaceutical — where quality meets trust in the production of pharmaceutical and healthcare products." />
+           <meta property="og:url" content="https://www.nnrs.in/" />
+          <meta property="og:type" content="website" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="NNRS Pharmaceutical | Trusted Pharma Manufacturing" />
+          <meta name="twitter:description" content="Explore top-quality pharma manufacturing with NNRS Pharmaceutical. Your health, our commitment." />
+ 
+          <link
           rel="icon"
           type="image/x-icon"
           href="assets/imgs/logo/favicon.png"
         />
+          <link rel="canonical" href="https://www.nnrs.in/" />
+         
+ 
       </Head>
       <main>
         <div className="has-smooth" id="has_smooth"></div>
